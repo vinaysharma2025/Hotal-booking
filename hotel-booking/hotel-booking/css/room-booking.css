@@ -1,0 +1,73 @@
+*{margin: 0px; padding: 0px; box-sizing:border-box ;}
+/* UTILITY CLASSES */
+a{text-decoration: none;  }
+.text-color{color: red;}
+.star-clr{color: #ff6138;}
+.text-clr{color: #fff;}
+li{list-style: none;}
+.font-weight{font-weight: 30px;}
+.box-size{box-sizing: border-box;}
+
+/* NAV */
+.nav{background-color: rgb(70, 199, 139);position: fixed; top: 0px; width: 100%;}
+.btn{padding: 15px 30px; background-color: rgb(197, 123, 70);}
+.btn:hover{background-color: rgb(88, 52, 22);transition: 0.5s;}
+/* SLIDER */
+.slider{background-image: url(../image/hotal-4.jpg); background-size: 100% 100%; height: 450px;
+     background-repeat: no-repeat;}
+.or-rm{margin-top: 10%; margin-left: 7%; font-size: 4rem;}
+
+/* FORM */
+label{ margin-bottom: 5px; padding: 10px 0px; font-size: 20px; }
+input{padding: 10px 40px; color: black;}
+button{padding: 12px 80px; border: none; background-color: coral;}
+.meri button:hover{
+     background: #191514;
+     color: #fff;
+}
+
+
+/* footer */
+footer{background-color: #191514;}
+input{background: none; outline: none; color: white;}
+button{padding: 9px 93px; margin-top: 10px; border: none;}
+span{color: #ff0606; }
+
+@media(max-width:1024px){
+    .or-rm{margin-top: 16%; margin-left: 7%; font-size: 5rem;}
+    input{width: 100%;}
+
+}
+
+@media(max-width:768px){
+    .or-rm{margin-top: 15%; margin-left: 5%; font-size: 3rem;}
+    .slider{height: 300px;}
+    .navig {display: none;}
+    .navbar-toggler{justify-content: end;display: block; margin-left: 90%; }
+    input{width: 10rem;}
+    button{width: 10rem; padding: 10px 42px;}
+}
+
+
+@media(max-width:425px){
+    .navbar-toggler{justify-content: end;display: block; margin-left: 80%;margin-top: -13%; }
+    .hed-rm{margin-top: 20px};
+    /* .hed-rm a{display: inline-block; margin-top: 20px;} */
+    .nav .container{align-items: center;}
+     input{width: 22rem;}
+    .slider{height: 300px;}
+    .or-rm{margin-top: 23%; margin-left: 5%; font-size: 3rem;}
+    .footers{text-align: center ;}
+    .foot-suit{padding: 0px;}
+    .foot-suit h5{font-size: 3rem; }
+    .foot-nav{margin-top: 3rem;}
+    .foot-nav ul{display: flex; justify-content: center;}
+    .foot-nav ul li a{padding-right: 10px;}
+    .foot-nav h5{text-align: center;}
+    .footers .row{padding: 0px!important;}
+    
+}
+
+@media(max-width:320px){
+ input{width:16rem ;}
+}
